@@ -1,26 +1,33 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Panel from './Panel.js';
+import dog from './images/dog.jpg';
+import { Container } from '@material-ui/core';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const examplejson = {
+  image: dog,
+  title: 'Dog',
+  subtitle: 'Jan 2020',
+  body: 'Dogs are cool. I really want one',
+  links: [
+    {
+      name: 'Google',
+      href: 'https://www.google.com'
+    },
+    {
+      name: 'YouTube',
+      href: 'https://www.youtube.com'
+    }
+  ]
 }
 
-export default App;
+export default class App extends Component {
+  render() {
+    return (
+      <Container maxWidth="sm">
+        <Panel json={examplejson}/>
+      </Container>
+    );
+  }
+}
