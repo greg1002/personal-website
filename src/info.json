@@ -41,11 +41,61 @@
     ]
   },
   {
+    "name": "Projects",
+    "type": "large",
+    "panels": [
+      {
+        "image": "./images/mill_ai_pic.png",
+        "title": "MILL-AI",
+        "subtitle": "May 2020 - Aug 2020",
+        "body": "A Greedy Monte Carlo Tree Search AI for the game Mill (Nine Men's Morris) built into a webapp\n Developed with jsReact",
+        "links": [
+          {
+            "name": "App",
+            "href": ""
+          },
+          {
+            "name": "Github",
+            "href": "https://github.com/greg1002/mill-ai"
+          }
+        ]
+      },
+      {
+        "image": "./images/sorting_sandbox_pic.png",
+        "title": "Sorting Algorithm Visualization",
+        "subtitle": "Jan 2020 - Mar 2020",
+        "body": "A webapp for visualizing 6 sorting algorithms\n Developed with jsReact",
+        "links": [
+          {
+            "name": "App",
+            "href": "https://greg1002.github.io/sorting-algorithm-visualization/"
+          },
+          {
+            "name": "Github",
+            "href": "https://github.com/greg1002/sorting-algorithm-visualization"
+          }
+        ]
+      },
+      {
+        "image": "./images/gravity_blocks_pic.png",
+        "title": "Gravity Blocks",
+        "subtitle": "Jul 2019 - Dec 2019",
+        "body": "An Android puzzle game based around manipulating a level's 'gravity' to maneuver blocks into their correct places\n Developed with Unity in C#",
+        "links": [
+          {
+            "name": "App",
+            "href": "https://play.google.com/store/apps/details?id=com.DefaultCompany.GravityBlocks&hl=en"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Dogs",
     "type": "timeline",
     "panels": [
       {
-        "image": "https://i.imgur.com/rpQdRoY_d.webp?maxwidth=728&fidelity=grand",
+        "image": "./images/dog.jpg",
         "title": "Dog",
         "subtitle": "Jan 2020",
         "date": "Dec 15, 2019",

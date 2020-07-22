@@ -1,30 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import Panel from './Panel.js';
-import dog from './images/dog.jpg';
 import { Container, Grid, Typography, Box } from '@material-ui/core';
 import { Timeline, TimelineItem, TimelineSeparator, TimelineConnector, TimelineContent, TimelineDot, TimelineOppositeContent } from '@material-ui/lab';
 
 var json = require('./info.json');
-
-const examplejson = {
-  image: dog,
-  title: 'Dog',
-  subtitle: 'Jan 2020',
-  body: 'Dogs are cool. I really want one',
-  links: [
-    {
-      name: 'Google',
-      href: 'https://www.google.com'
-    },
-    {
-      name: 'YouTube',
-      href: 'https://www.youtube.com'
-    }
-  ]
-}
-
-console.log(json);
 
 export default class App extends Component {
 
