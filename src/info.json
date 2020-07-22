@@ -1,5 +1,46 @@
 [
   {
+    "name": "About",
+    "type": "large",
+    "panels": [
+      {
+        "title": "Gergely (Greg) Chikan",
+        "icons": [
+          {
+            "type": "school",
+            "text": "Cornell University"
+          },
+          {
+            "type": "business",
+            "text": "Computer Science & Math"
+          },
+          {
+            "type": "work",
+            "text": "Cornell Cup Robotics Developer"
+          },
+          {
+            "type": "code",
+            "text": "Coding since 14"
+          }
+        ],
+        "links": [
+          {
+            "name": "github",
+            "href": "https://www.github.com/greg1002"
+          },
+          {
+            "name": "resume",
+            "href": ""
+          },
+          {
+            "name": "transcript",
+            "href": "./pdfs/transcript.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Dogs",
     "type": "timeline",
     "panels": [
