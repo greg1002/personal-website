@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Card, CardContent, CardActions, CardMedia, Typography, Button, Grid, Box } from '@material-ui/core';
-import { School, Work, Business, Code, Error } from '@material-ui/icons';
+import { School, Work, Business, Code, Error, MenuBook } from '@material-ui/icons';
+import './fonts.css';
 
 /*
 JSON FORMAT:
@@ -34,6 +35,7 @@ export default class Panel extends Component {
       case "work": return <Work />
       case "business": return <Business />
       case "code": return <Code />
+      case "book": return <MenuBook />
       default: return <Error />
     }
   }
@@ -61,7 +63,7 @@ export default class Panel extends Component {
       <CardContent>
         {
           json.title == null ? <div /> :
-          <Typography variant="h5" component="h2">
+          <Typography className="courier" variant="h6" component="h2">
             {json.title}
           </Typography>
         }
