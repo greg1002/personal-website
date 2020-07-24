@@ -27,7 +27,8 @@ const useStyles = makeStyles((theme) => ({
   ul: {
     backgroundColor: 'inherit',
     padding: 0,
-  }
+  },
+
 }));
 
 function SectionList() {
@@ -50,22 +51,24 @@ function SectionList() {
 
 function Section(props) {
   const classes = useStyles();
-  const { name, type } = props.json;
+  const { name, type, maxWidth, breakpoints } = props.json;
   return (
     <React.Fragment>
       <Header name={name} />
       <ListItem>
-        <Container maxWidth="sm">
-          {
-            type === "timeline" ?
-            <Timeline>
+        {
+          type === "timeline" ?
+          <Container maxWidth={maxWidth}>
+            <Timeline align="alternate">
               <Panels json={props.json} />
-            </Timeline> :
+            </Timeline>
+          </Container> :
+          <Container maxWidth={maxWidth}>
             <Grid container alignItems="stretch" spacing={3}>
               <Panels json={props.json} />
             </Grid>
-          }
-        </Container>
+          </Container>
+        }
       </ListItem>
     </React.Fragment>
   )
@@ -83,7 +86,7 @@ function Header(props) {
 }
 
 function Panels(props) {
-  const { panels, type } = props.json;
+  const { panels, type, breakpoints } = props.json;
   return (
     panels.map(panel => {
       return (
@@ -96,11 +99,11 @@ function Panels(props) {
           </TimelineSeparator>
           <TimelineContent><Panel json={panel} /></TimelineContent>
         </TimelineItem> :
-        type === "medium" ?
-        <Grid xs={12} sm={6} item><Panel json={panel} /></Grid> :
-        type === "small" ?
-        <Grid xs={6} sm={4} item><Panel json={panel} /></Grid> :
-        <Grid xs={12} item><Panel json={panel} /></Grid>
+        <Grid
+          xs={breakpoints.xs} sm={breakpoints.sm} md={breakpoints.md}
+          lg={breakpoints.lg} xl={breakpoints.xl} item>
+          <Panel json={panel} />
+        </Grid>
       );
     })
   )

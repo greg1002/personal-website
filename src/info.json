@@ -1,6 +1,11 @@
 [
   {
     "name": "About",
+    "type": "normal",
+    "maxWidth": "sm",
+    "breakpoints": {
+      "xs": 12
+    },
     "type": "large",
     "panels": [
       {
@@ -24,11 +29,11 @@
           },
           {
             "type": "work",
-            "text": "Cornell Cup Robotics Full Stack Developer"
+            "text": "Cornell Cup Robotics Fullstack Dev"
           },
           {
             "type": "work",
-            "text": "CMS Frontend Developer"
+            "text": "CMS Frontend Dev"
           }
         ],
         "links": [
@@ -50,7 +55,11 @@
   },
   {
     "name": "Projects",
-    "type": "large",
+    "type": "normal",
+    "maxWidth": "sm",
+    "breakpoints": {
+      "xs": 12
+    },
     "panels": [
       {
         "image": "./images/projects/mill_ai_pic.png",
@@ -60,7 +69,7 @@
         "links": [
           {
             "name": "App",
-            "href": ""
+            "href": "https://greg1002.github.io/mill-ai/"
           },
           {
             "name": "Github",
@@ -100,15 +109,21 @@
   },
   {
     "name": "Experiences",
-    "type": "medium",
+    "type": "normal",
+    "maxWidth": "md",
+    "breakpoints": {
+      "xs": 12,
+      "sm": 6,
+      "md": 4
+    },
     "panels": [
       {
         "title": "Teaching Consultant",
-        "subtitle": "Aug 2020 - Present",
+        "subtitle": "Sep 2020 - Present",
         "body": "Consultant for the class CS 2112: Object-Oriented Design and Data Structures (Honors)"
       },
       {
-        "title": "CMS Fronted Developer",
+        "title": "CMS Fronted Dev",
         "subtitle": "Aug 2020 - Present",
         "body": "Developer for the Cornell CS Department's Course Management System"
       },
@@ -127,7 +142,126 @@
   {
     "name": "Timeline",
     "type": "timeline",
+    "maxWidth": "md",
     "panels": [
+      {
+        "title": "Teaching Consultant",
+        "date": "Sep 2020",
+        "subtitle": "Began - CS 2112: O-O Design and Data Structures (Honors)"
+      },
+      {
+        "title": "developergreg.com",
+        "date": "Aug 2020",
+        "subtitle": "First Release"
+      },
+      {
+        "title": "CMS Fronted Dev",
+        "date": "Aug 2020",
+        "subtitle": "Began"
+      },
+      {
+        "image": "./images/projects/mill_ai_pic.png",
+        "title": "MILL-AI",
+        "date": "Aug 2020",
+        "subtitle": "Release",
+        "links": [
+          {
+            "name": "App",
+            "href": "https://greg1002.github.io/mill-ai/"
+          },
+          {
+            "name": "Github",
+            "href": "https://github.com/greg1002/mill-ai"
+          }
+        ]
+      },
+      {
+        "title": "Accepted into Major",
+        "date": "Jul 2020",
+        "subtitle": "Computer Science and Math"
+      },
+      {
+        "image": "./images/timeline/command_line_chess_pic.png",
+        "title": "Command Line Chess",
+        "date": "May 2020",
+        "subtitle": "Final Project - CS 3110: Functional Programming",
+        "body": "Command line recreation of Chess in OCaml",
+        "links": [
+          {
+            "name": "Github",
+            "href": "https://github.com/greg1002/command-line-chess"
+          }
+        ]
+      },
+      {
+        "image": "./images/projects/sorting_sandbox_pic.png",
+        "title": "Sorting Algorithm Visualization",
+        "date": "Mar 2020",
+        "subtitle": "Release",
+        "links": [
+          {
+            "name": "App",
+            "href": "https://greg1002.github.io/sorting-algorithm-visualization/"
+          },
+          {
+            "name": "Github",
+            "href": "https://github.com/greg1002/sorting-algorithm-visualization"
+          }
+        ]
+      },
+      {
+        "title": "Cornell Cup Robotics",
+        "date": "Feb 2020",
+        "subtitle": "Joined",
+        "links": [
+          {
+            "name": "Cornell Cup Robotics Website",
+            "href": "https://cornellcuprobotics.com/"
+          }
+        ]
+      },
+      {
+        "image": "./images/projects/gravity_blocks_pic.png",
+        "title": "Gravity Blocks",
+        "date": "Dec 2019",
+        "subtitle": "Release",
+        "links": [
+          {
+            "name": "App",
+            "href": "https://play.google.com/store/apps/details?id=com.DefaultCompany.GravityBlocks&hl=en"
+          }
+        ]
+      },
+      {
+        "title": "Entered Cornell University",
+        "date": "Aug 2019"
+      },
+      {
+        "image": "./images/timeline/snakewars_pic.png",
+        "subtitle": "First Ever Personal Project",
+        "title": "SNAKEWARS - Multiplayer Snake",
+        "date": "Nov 2017",
+        "links": [
+          {
+            "name": "App",
+            "href": "https://greg1002.github.io/SNAKEWARS/"
+          },
+          {
+            "name": "Github",
+            "href": "https://github.com/greg1002/SNAKEWARS"
+          }
+        ]
+      },
+      {
+        "title": "AP CS Exam",
+        "date": "May 2017",
+        "subtitle": "Received a 4 :("
+      },
+      {
+        "title": "First Learnt Programming Language",
+        "date": "Oct 2015",
+        "subtitle": "javascript - through Codeacademy"
+      },
       {
         "title": "Entered Manhattan High School",
         "date": "Aug 2015"
