@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardContent, CardActions, CardMedia, Typography, Button, Grid, Box } from '@material-ui/core';
+import { Card, CardContent, CardActions, CardMedia, Typography, Button, Grid, Box, Chip } from '@material-ui/core';
 import { School, Work, Business, Code, Error, MenuBook } from '@material-ui/icons';
 import './fonts.css';
 
@@ -60,7 +60,7 @@ export default class Panel extends Component {
 
   getCardContent = (json) => {
     return (
-      <CardContent>
+      <CardContent align="left">
         {
           json.title == null ? <div /> :
           <Typography className="courier" variant="h6" component="h2">
@@ -82,8 +82,27 @@ export default class Panel extends Component {
             {json.body}
           </Typography>
         }
+        {this.getCardTags(json)}
       </CardContent>
     )
+  }
+
+  getCardTags = (json) => {
+    return json.tags == null || json.tags.length === 0 ? <div /> :
+    <Box display="flex" flexWrap="wrap" flexDirection="row">{
+        json.tags.map(tag => {
+          return (
+            <Box mt={1} mr={1}>
+              <Chip
+                label={tag}
+                color="primary"
+                size="small"
+              />
+            </Box>
+          )
+        })
+      }</Box>
+
   }
 
   getCardActions = (json) => {

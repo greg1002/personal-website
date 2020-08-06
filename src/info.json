@@ -64,8 +64,9 @@
       {
         "image": "./images/projects/mill_ai_pic.png",
         "title": "MILL-AI",
-        "subtitle": "May 2020 - Aug 2020",
+        "subtitle": "May 2020 - Present",
         "body": "A Greedy Monte Carlo Tree Search AI for the game Mill (Nine Men's Morris) built into a webapp",
+        "tags": ["jsReact", "Data Structures"],
         "links": [
           {
             "name": "App",
@@ -82,6 +83,7 @@
         "title": "Sorting Algorithm Visualization",
         "subtitle": "Jan 2020 - Mar 2020",
         "body": "A webapp for visualizing 6 sorting algorithms",
+        "tags": ["jsReact"],
         "links": [
           {
             "name": "App",
@@ -98,6 +100,7 @@
         "title": "Gravity Blocks",
         "subtitle": "Jul 2019 - Dec 2019",
         "body": "An Android puzzle game based around manipulating a level's 'gravity' to maneuver blocks into their correct places",
+        "tags": ["Unity", "C#"],
         "links": [
           {
             "name": "App",
@@ -120,16 +123,19 @@
       {
         "title": "Teaching Consultant",
         "subtitle": "Sep 2020 - Present",
-        "body": "Consultant for the class CS 2112: Object-Oriented Design and Data Structures (Honors)"
+        "body": "Consultant for the class CS 2112: Object-Oriented Design and Data Structures (Honors)",
+        "tags": ["Java", "Object Oriented Design", "Data Structures"]
       },
       {
         "title": "CMS Fronted Dev",
         "subtitle": "Aug 2020 - Present",
-        "body": "Developer for the Cornell CS Department's Course Management System"
+        "body": "Developer for the Cornell CS Department's Course Management System",
+        "tags": ["Java"]
       },
       {
         "title": "Cornell Cup Robotics Full Stack Dev",
         "subtitle": "Feb 2020 - Present",
+        "tags": ["jsReact", "Python", "Tensorflow", "Google Blockly"],
         "links": [
           {
             "name": "Cornell Cup Robotics Website",
@@ -152,7 +158,8 @@
       {
         "title": "developergreg.com",
         "date": "Aug 2020",
-        "subtitle": "First Release"
+        "subtitle": "First Release",
+        "tags": ["jsReact", "Material-UI"]
       },
       {
         "title": "CMS Fronted Dev",
@@ -163,7 +170,7 @@
         "image": "./images/projects/mill_ai_pic.png",
         "title": "MILL-AI",
         "date": "Aug 2020",
-        "subtitle": "Release",
+        "subtitle": "First Release",
         "links": [
           {
             "name": "App",
@@ -185,7 +192,8 @@
         "title": "Command Line Chess",
         "date": "May 2020",
         "subtitle": "Final Project - CS 3110: Functional Programming",
-        "body": "Command line recreation of Chess in OCaml",
+        "body": "Command line recreation of Chess",
+        "tags": ["OCaml", "Functional Programming"],
         "links": [
           {
             "name": "Github",
@@ -210,9 +218,9 @@
         ]
       },
       {
-        "title": "Cornell Cup Robotics",
+        "title": "Cornell Cup Robotics Full Stack Dev",
         "date": "Feb 2020",
-        "subtitle": "Joined",
+        "subtitle": "Began",
         "links": [
           {
             "name": "Cornell Cup Robotics Website",
@@ -241,6 +249,7 @@
         "subtitle": "First Ever Personal Project",
         "title": "SNAKEWARS - Multiplayer Snake",
         "date": "Nov 2017",
+        "tags": ["JavaScript"],
         "links": [
           {
             "name": "App",
@@ -253,14 +262,15 @@
         ]
       },
       {
-        "title": "AP CS Exam",
-        "date": "May 2017",
-        "subtitle": "Received a 4 :("
+        "title": "AP Computer Science",
+        "date": "Aug 2016 - May 2017",
+        "tags": ["Java"]
       },
       {
         "title": "First Learnt Programming Language",
         "date": "Oct 2015",
-        "subtitle": "javascript - through Codeacademy"
+        "subtitle": "CodeAcademy",
+        "tags": ["JavaScript"]
       },
       {
         "title": "Entered Manhattan High School",
@@ -269,7 +279,7 @@
       {
         "title": "First Programming Experience",
         "date": "Jan 2015",
-        "subtitle": "Scratch"
+        "tags": ["Scratch"]
       },
       {
         "title": "Entered Eisenhower Middle School",
