@@ -24,7 +24,7 @@ export default class Panel extends Component {
   getCardMedia = (json) => {
     return json.image == null ? <div /> :
     <CardMedia
-      src={json.image}
+      src={process.env.PUBLIC_URL + json.image}
       component="img"
     />
   }

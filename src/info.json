@@ -33,7 +33,7 @@
           },
           {
             "type": "work",
-            "text": "CMS Frontend Dev"
+            "text": "CMS Backend Dev"
           }
         ],
         "links": [
@@ -47,7 +47,7 @@
           },
           {
             "name": "transcript",
-            "href": "./pdfs/transcript.pdf"
+            "href": "/pdfs/transcript.pdf"
           }
         ]
       }
@@ -56,13 +56,15 @@
   {
     "name": "Projects",
     "type": "normal",
-    "maxWidth": "sm",
+    "maxWidth": "lg",
     "breakpoints": {
-      "xs": 12
+      "xs": 12,
+      "md": 6,
+      "lg": 4
     },
     "panels": [
       {
-        "image": "./images/projects/mill_ai_pic.png",
+        "image": "/images/projects/mill_ai_pic.png",
         "title": "MILL-AI",
         "subtitle": "May 2020 - Present",
         "body": "A Greedy Monte Carlo Tree Search AI for the game Mill (Nine Men's Morris) built into a webapp",
@@ -79,7 +81,7 @@
         ]
       },
       {
-        "image": "./images/projects/sorting_sandbox_pic.png",
+        "image": "/images/projects/sorting_sandbox_pic.png",
         "title": "Sorting Algorithm Visualization",
         "subtitle": "Jan 2020 - Mar 2020",
         "body": "A webapp for visualizing 6 sorting algorithms",
@@ -96,7 +98,7 @@
         ]
       },
       {
-        "image": "./images/projects/gravity_blocks_pic.png",
+        "image": "/images/projects/gravity_blocks_pic.png",
         "title": "Gravity Blocks",
         "subtitle": "Jul 2019 - Dec 2019",
         "body": "An Android puzzle game based around manipulating a level's 'gravity' to maneuver blocks into their correct places",
@@ -127,7 +129,7 @@
         "tags": ["Java", "Object Oriented Design", "Data Structures"]
       },
       {
-        "title": "CMS Fronted Dev",
+        "title": "CMS Backend Dev",
         "subtitle": "Aug 2020 - Present",
         "body": "Developer for the Cornell CS Department's Course Management System",
         "tags": ["Java"]
@@ -162,12 +164,12 @@
         "tags": ["jsReact", "Material-UI"]
       },
       {
-        "title": "CMS Fronted Dev",
+        "title": "CMS Backend Dev",
         "date": "Aug 2020",
         "subtitle": "Began"
       },
       {
-        "image": "./images/projects/mill_ai_pic.png",
+        "image": "/images/projects/mill_ai_pic.png",
         "title": "MILL-AI",
         "date": "Aug 2020",
         "subtitle": "First Release",
@@ -188,7 +190,7 @@
         "subtitle": "Computer Science and Math"
       },
       {
-        "image": "./images/timeline/command_line_chess_pic.png",
+        "image": "/images/timeline/command_line_chess_pic.png",
         "title": "Command Line Chess",
         "date": "May 2020",
         "subtitle": "Final Project - CS 3110: Functional Programming",
@@ -202,7 +204,7 @@
         ]
       },
       {
-        "image": "./images/projects/sorting_sandbox_pic.png",
+        "image": "/images/projects/sorting_sandbox_pic.png",
         "title": "Sorting Algorithm Visualization",
         "date": "Mar 2020",
         "subtitle": "Release",
@@ -229,7 +231,7 @@
         ]
       },
       {
-        "image": "./images/projects/gravity_blocks_pic.png",
+        "image": "/images/projects/gravity_blocks_pic.png",
         "title": "Gravity Blocks",
         "date": "Dec 2019",
         "subtitle": "Release",
@@ -245,7 +247,7 @@
         "date": "Aug 2019"
       },
       {
-        "image": "./images/timeline/snakewars_pic.png",
+        "image": "/images/timeline/snakewars_pic.png",
         "subtitle": "First Ever Personal Project",
         "title": "SNAKEWARS - Multiplayer Snake",
         "date": "Nov 2017",
