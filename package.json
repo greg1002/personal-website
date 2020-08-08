@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://developergreg.com",
+  "homepage": "http://greg1002.github.io/personal-website",
   "dependencies": {
     "-": "0.0.1",
     "@material-ui/core": "^4.10.2",
