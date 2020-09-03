@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardContent, CardActions, CardMedia, Typography, Button, Grid, Box, Chip } from '@material-ui/core';
+import { Card, CardContent, CardActions, CardMedia, Typography, Button, Grid, Box, Chip, LinearProgress } from '@material-ui/core';
 import { School, Work, Business, Code, Error, MenuBook } from '@material-ui/icons';
 import './fonts.css';
 
@@ -74,23 +74,32 @@ export default class Panel extends Component {
           </Typography>
         }
         {
-          json.icons == null ? <div /> : this.getCardIcons(json.icons)
-        }
-        {
           json.body == null ? <div /> :
+          Array.isArray(json.body) ?
+          json.body.map(text => {
+            return (
+              <Typography variant="body2" component="p">
+                {"• " + text}
+              </Typography>
+            );
+          }) :
           <Typography variant="body2" component="p">
             {json.body}
           </Typography>
         }
-        {this.getCardTags(json)}
+        {
+          json.icons == null ? <div /> : this.getCardIcons(json.icons)
+        }
+        {this.getCardSkills(json.skills)}
+        {this.getCardTags(json.tags)}
       </CardContent>
     )
   }
 
-  getCardTags = (json) => {
-    return json.tags == null || json.tags.length === 0 ? <div /> :
+  getCardTags = (tags) => {
+    return tags == null || tags.length === 0 ? <div /> :
     <Box display="flex" flexWrap="wrap" flexDirection="row">{
-        json.tags.map(tag => {
+        tags.map(tag => {
           return (
             <Box mt={1} mr={1}>
               <Chip
@@ -103,6 +112,26 @@ export default class Panel extends Component {
         })
       }</Box>
 
+  }
+
+  getCardSkills = (skills) => {
+    return skills == null || skills.length === 0 ? <div /> :
+    <Grid container>{
+        skills.map(skill => {
+          return (
+            <Grid item xs={12}>
+              <Box p={1} display="flex" alignItems="center">
+                <Box minWidth={75}>
+                  <Typography variant="body2">{skill.name}</Typography>
+                </Box>
+                <Box ml={2} flexGrow={1}>
+                  <LinearProgress variant="determinate" value={skill.value}/>
+                </Box>
+              </Box>
+            </Grid>
+          )
+        })
+      }</Grid>
   }
 
   getCardActions = (json) => {

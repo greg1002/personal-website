@@ -10,6 +10,7 @@
     "panels": [
       {
         "title": "Gergely (Greg) Chikan",
+        "image": "./images/about.jpg",
         "icons": [
           {
             "type": "school",
@@ -29,7 +30,7 @@
           },
           {
             "type": "work",
-            "text": "Cornell Cup Robotics Fullstack Dev"
+            "text": "Cornell Cup Robotics SWE"
           },
           {
             "type": "work",
@@ -42,8 +43,12 @@
             "href": "https://www.github.com/greg1002"
           },
           {
+            "name": "LinkedIn",
+            "href": "https://www.linkedin.com/in/gergelychikan/"
+          },
+          {
             "name": "resume",
-            "href": ""
+            "href": "/pdfs/resume.pdf"
           },
           {
             "name": "transcript",
@@ -77,15 +82,19 @@
           {
             "name": "Github",
             "href": "https://github.com/greg1002/mill-ai"
+          },
+          {
+            "name": "Game Rules",
+            "href": "https://en.wikipedia.org/wiki/Nine_men%27s_morris#Rules"
           }
         ]
       },
       {
         "image": "/images/projects/sorting_sandbox_pic.png",
         "title": "Sorting Algorithm Visualization",
-        "subtitle": "Jan 2020 - Mar 2020",
-        "body": "A webapp for visualizing 6 sorting algorithms",
-        "tags": ["jsReact"],
+        "subtitle": "Jan 2020 - Feb 2020",
+        "body": "A webapp for visualizing 6 sorting algorithms with various parameters",
+        "tags": ["jsReact", "Algorithms"],
         "links": [
           {
             "name": "App",
@@ -102,7 +111,7 @@
         "title": "Gravity Blocks",
         "subtitle": "Jul 2019 - Dec 2019",
         "body": "An Android puzzle game based around manipulating a level's 'gravity' to maneuver blocks into their correct places",
-        "tags": ["Unity", "C#"],
+        "tags": ["Unity", "C#", "Game Design"],
         "links": [
           {
             "name": "App",
@@ -124,24 +133,127 @@
     "panels": [
       {
         "title": "Teaching Consultant",
-        "subtitle": "Sep 2020 - Present",
-        "body": "Consultant for the class CS 2112: Object-Oriented Design and Data Structures (Honors)",
-        "tags": ["Java", "Object Oriented Design", "Data Structures"]
+        "subtitle": "Aug 2020 - Present",
+        "body": "Prepared and graded assignments and exams, held weekly office hours for the class CS 2112: OO Design and Data Structures (Honors)",
+        "tags": ["Java", "Object Oriented Design", "Data Structures"],
+        "links": [
+          {
+            "name": "Course Website",
+            "href": "https://www.cs.cornell.edu/courses/cs2112/2020fa/"
+          }
+        ]
       },
       {
         "title": "CMS Backend Dev",
-        "subtitle": "Aug 2020 - Present",
-        "body": "Developer for the Cornell CS Department's Course Management System",
-        "tags": ["Java"]
+        "subtitle": "Jul 2020 - Present",
+        "body": "Refactored codebase, created endpoints, implemented integration tests for Cornell's Course Management System",
+        "tags": ["Java", "TypeScript", "Backend Design"]
       },
       {
-        "title": "Cornell Cup Robotics Full Stack Dev",
-        "subtitle": "Feb 2020 - Present",
+        "title": "Cornell Cup Robotics SWE",
+        "subtitle": "Jan 2020 - Present",
+        "body": ["Helped implement Google Blockly as a medium to communicate with a robot",
+          "Creating a customizable ML image recognition interface, inspired by TensorFlow Playground"],
         "tags": ["jsReact", "Python", "Tensorflow", "Google Blockly"],
         "links": [
           {
             "name": "Cornell Cup Robotics Website",
             "href": "https://cornellcuprobotics.com/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Skills",
+    "type": "normal",
+    "maxWidth": "md",
+    "breakpoints": {
+      "xs": 12,
+      "sm": 6,
+      "md": 4
+    },
+    "panels": [
+      {
+        "title": "Languages",
+        "skills": [
+          {
+            "name": "JavaScript",
+            "value": 100
+          },
+          {
+            "name": "Java",
+            "value": 80
+          },
+          {
+            "name": "SQL",
+            "value": 80
+          },
+          {
+            "name": "TypeScript",
+            "value": 60
+          },
+          {
+            "name": "Ocaml",
+            "value": 60
+          },
+          {
+            "name": "Python",
+            "value": 40
+          }
+        ]
+      },
+      {
+        "title": "Libraries",
+        "skills": [
+          {
+            "name": "jsReact",
+            "value": 100
+          },
+          {
+            "name": "JPA",
+            "value": 80
+          },
+          {
+            "name": "UnityEngine",
+            "value": 80
+          },
+          {
+            "name": "Flask",
+            "value": 60
+          },
+          {
+            "name": "Node.js",
+            "value": 60
+          },
+          {
+            "name": "TensorFlow",
+            "value": 40
+          }
+        ]
+      },
+      {
+        "title": "Tools",
+        "skills": [
+          {
+            "name": "Git/GitHub",
+            "value": 100
+          },
+          {
+            "name": "IntelliJ",
+            "value": 100
+          },
+          {
+            "name": "UNIX",
+            "value": 80
+          },
+          {
+            "name": "Eclipse",
+            "value": 80
+          },
+          {
+            "name": "VSCode",
+            "value": 80
           }
         ]
       }
@@ -154,19 +266,20 @@
     "panels": [
       {
         "title": "Teaching Consultant",
-        "date": "Sep 2020",
+        "date": "Aug 2020",
         "subtitle": "Began - CS 2112: O-O Design and Data Structures (Honors)"
       },
       {
         "title": "developergreg.com",
         "date": "Aug 2020",
         "subtitle": "First Release",
-        "tags": ["jsReact", "Material-UI"]
-      },
-      {
-        "title": "CMS Backend Dev",
-        "date": "Aug 2020",
-        "subtitle": "Began"
+        "tags": ["jsReact", "Material-UI"],
+        "links": [
+          {
+            "name": "Github",
+            "href": "https://github.com/greg1002/personal-website"
+          }
+        ]
       },
       {
         "image": "/images/projects/mill_ai_pic.png",
@@ -183,6 +296,11 @@
             "href": "https://github.com/greg1002/mill-ai"
           }
         ]
+      },
+      {
+        "title": "CMS Backend Dev",
+        "date": "Jul 2020",
+        "subtitle": "Began"
       },
       {
         "title": "Accepted into Major",
@@ -206,7 +324,7 @@
       {
         "image": "/images/projects/sorting_sandbox_pic.png",
         "title": "Sorting Algorithm Visualization",
-        "date": "Mar 2020",
+        "date": "Feb 2020",
         "subtitle": "Release",
         "links": [
           {
@@ -221,7 +339,7 @@
       },
       {
         "title": "Cornell Cup Robotics Full Stack Dev",
-        "date": "Feb 2020",
+        "date": "Jan 2020",
         "subtitle": "Began",
         "links": [
           {
