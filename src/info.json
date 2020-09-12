@@ -72,8 +72,8 @@
         "image": "/images/projects/mill_ai_pic.png",
         "title": "MILL-AI",
         "subtitle": "May 2020 - Present",
-        "body": "A Greedy Monte Carlo Tree Search AI for the game Mill (Nine Men's Morris) built into a webapp",
-        "tags": ["jsReact", "Data Structures"],
+        "body": "A Greedy Monte Carlo Tree Search AI for the game Mill built into a webapp",
+        "tags": ["jsReact", "Data Structures", "AI"],
         "links": [
           {
             "name": "App",
@@ -111,7 +111,7 @@
         "title": "Gravity Blocks",
         "subtitle": "Jul 2019 - Dec 2019",
         "body": "An Android puzzle game based around manipulating a level's 'gravity' to maneuver blocks into their correct places",
-        "tags": ["Unity", "C#", "Game Design"],
+        "tags": ["Unity", "C#", "Game Design", "Android"],
         "links": [
           {
             "name": "App",
@@ -134,8 +134,10 @@
       {
         "title": "Teaching Consultant",
         "subtitle": "Aug 2020 - Present",
-        "body": "Prepared and graded assignments and exams, held weekly office hours for the class CS 2112: OO Design and Data Structures (Honors)",
-        "tags": ["Java", "Object Oriented Design", "Data Structures"],
+        "body": ["Class: OO Design and Data Structures (Honors)",
+          "Prepared and graded assignments and exams",
+          "Held weekly office hours"],
+        "tags": ["Java", "OOD", "Data Structures"],
         "links": [
           {
             "name": "Course Website",
@@ -146,8 +148,8 @@
       {
         "title": "CMS Backend Dev",
         "subtitle": "Jul 2020 - Present",
-        "body": "Refactored codebase, created endpoints, implemented integration tests for Cornell's Course Management System",
-        "tags": ["Java", "TypeScript", "Backend Design"]
+        "body": ["CMS: Cornell's Course Management System","Created, tested, and redeveloped API Endpoints"],
+        "tags": ["Java", "TypeScript", "JPA", "API Testing", "Relational Databases"]
       },
       {
         "title": "Cornell Cup Robotics SWE",
@@ -194,7 +196,7 @@
             "value": 60
           },
           {
-            "name": "Ocaml",
+            "name": "C#",
             "value": 60
           },
           {
@@ -240,7 +242,7 @@
             "value": 100
           },
           {
-            "name": "IntelliJ",
+            "name": "Eclipse",
             "value": 100
           },
           {
@@ -248,7 +250,7 @@
             "value": 80
           },
           {
-            "name": "Eclipse",
+            "name": "IntelliJ",
             "value": 80
           },
           {
@@ -312,7 +314,6 @@
         "title": "Command Line Chess",
         "date": "May 2020",
         "subtitle": "Final Project - CS 3110: Functional Programming",
-        "body": "Command line recreation of Chess",
         "tags": ["OCaml", "Functional Programming"],
         "links": [
           {
