@@ -97,7 +97,7 @@ function Panels(props) {
             <TimelineDot color="primary"/>
             {panels[panels.length - 1] === panel ? <div /> : <TimelineConnector/>}
           </TimelineSeparator>
-          <TimelineContent><Panel json={panel} /></TimelineContent>
+          <TimelineContent><Panel json={{...panel,date: null}} /></TimelineContent>
         </TimelineItem> :
         <Grid
           xs={breakpoints.xs} sm={breakpoints.sm} md={breakpoints.md}

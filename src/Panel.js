@@ -69,8 +69,14 @@ export default class Panel extends Component {
         }
         {
           json.subtitle == null ? <div /> :
-          <Typography variant="subtitle2" color="textSecondary">
+          <Typography variant="subtitle1" color="textSecondary">
             {json.subtitle}
+          </Typography>
+        }
+        {
+          json.date == null ? <div /> :
+          <Typography variant="subtitle2" color="textPrimary">
+            {json.date}
           </Typography>
         }
         {

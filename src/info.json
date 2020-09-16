@@ -71,9 +71,9 @@
       {
         "image": "/images/projects/mill_ai_pic.png",
         "title": "MILL-AI",
-        "subtitle": "May 2020 - Present",
+        "date": "May 2020 - Present",
         "body": "A Greedy Monte Carlo Tree Search AI for the game Mill built into a webapp",
-        "tags": ["jsReact", "Data Structures", "AI"],
+        "tags": ["jsReact"],
         "links": [
           {
             "name": "App",
@@ -92,9 +92,9 @@
       {
         "image": "/images/projects/sorting_sandbox_pic.png",
         "title": "Sorting Algorithm Visualization",
-        "subtitle": "Jan 2020 - Feb 2020",
+        "date": "Jan 2020 - Feb 2020",
         "body": "A webapp for visualizing 6 sorting algorithms with various parameters",
-        "tags": ["jsReact", "Algorithms"],
+        "tags": ["jsReact"],
         "links": [
           {
             "name": "App",
@@ -109,9 +109,9 @@
       {
         "image": "/images/projects/gravity_blocks_pic.png",
         "title": "Gravity Blocks",
-        "subtitle": "Jul 2019 - Dec 2019",
+        "date": "Jul 2019 - Dec 2019",
         "body": "An Android puzzle game based around manipulating a level's 'gravity' to maneuver blocks into their correct places",
-        "tags": ["Unity", "C#", "Game Design", "Android"],
+        "tags": ["Unity", "C#"],
         "links": [
           {
             "name": "App",
@@ -132,35 +132,39 @@
     },
     "panels": [
       {
-        "title": "Teaching Consultant",
-        "subtitle": "Aug 2020 - Present",
-        "body": ["Class: OO Design and Data Structures (Honors)",
-          "Prepared and graded assignments and exams",
-          "Held weekly office hours"],
-        "tags": ["Java", "OOD", "Data Structures"],
+        "title": "CMS Backend Dev",
+        "subtitle": "Course Management System",
+        "date": "Jul 2020 - Present",
+        "body": ["Created, tested, and redeveloped API endpoints",
+          "Updated and refactored old codebase",
+          "Participated in code reviews"],
+        "tags": ["Java", "TypeScript", "JPA"]
+      },
+      {
+        "title": "Software Engineer",
+        "subtitle": "Cornell Cup Robotics",
+        "date": "Jan 2020 - Present",
+        "body": ["Helped implement Google Blockly as a medium to program a robot",
+          "Creating a customizable ML image recognition interface, inspired by TensorFlow Playground"],
+        "tags": ["jsReact", "Python", "Tensorflow"],
         "links": [
           {
-            "name": "Course Website",
-            "href": "https://www.cs.cornell.edu/courses/cs2112/2020fa/"
+            "name": "Team Website",
+            "href": "https://cornellcuprobotics.com/"
           }
         ]
       },
       {
-        "title": "CMS Backend Dev",
-        "subtitle": "Jul 2020 - Present",
-        "body": ["CMS: Cornell's Course Management System","Created, tested, and redeveloped API Endpoints"],
-        "tags": ["Java", "TypeScript", "JPA", "API Testing", "Relational Databases"]
-      },
-      {
-        "title": "Cornell Cup Robotics SWE",
-        "subtitle": "Jan 2020 - Present",
-        "body": ["Helped implement Google Blockly as a medium to communicate with a robot",
-          "Creating a customizable ML image recognition interface, inspired by TensorFlow Playground"],
-        "tags": ["jsReact", "Python", "Tensorflow", "Google Blockly"],
+        "title": "Teaching Consultant",
+        "subtitle": "OO Design and Data Structs Honors",
+        "date": "Aug 2020 - Present",
+        "body": ["Prepared and graded assignments and exams",
+          "Held weekly office hours"],
+        "tags": ["Java"],
         "links": [
           {
-            "name": "Cornell Cup Robotics Website",
-            "href": "https://cornellcuprobotics.com/"
+            "name": "Course Website",
+            "href": "https://www.cs.cornell.edu/courses/cs2112/2020fa/"
           }
         ]
       }
@@ -188,11 +192,11 @@
             "value": 80
           },
           {
-            "name": "SQL",
+            "name": "TypeScript",
             "value": 80
           },
           {
-            "name": "TypeScript",
+            "name": "OCaml",
             "value": 60
           },
           {
@@ -201,7 +205,7 @@
           },
           {
             "name": "Python",
-            "value": 40
+            "value": 60
           }
         ]
       },
