@@ -132,7 +132,7 @@
     },
     "panels": [
       {
-        "title": "CMS Backend Dev",
+        "title": "Backend Dev",
         "subtitle": "Course Management System",
         "date": "Jul 2020 - Present",
         "body": ["Created, tested, and redeveloped API endpoints",
