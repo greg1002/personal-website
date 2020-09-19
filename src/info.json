@@ -137,14 +137,14 @@
         "date": "Jul 2020 - Present",
         "body": ["Created, tested, and redeveloped API endpoints",
           "Updated and refactored old codebase",
-          "Participated in code reviews"],
-        "tags": ["Java", "TypeScript", "JPA"]
+          "Migrating backend from JPA to REST"],
+        "tags": ["Java", "TypeScript"]
       },
       {
         "title": "Software Engineer",
         "subtitle": "Cornell Cup Robotics",
         "date": "Jan 2020 - Present",
-        "body": ["Helped implement Google Blockly as a medium to program a robot",
+        "body": ["Helped implement Google Blockly on a web-app as a medium to program a robot",
           "Creating a customizable ML image recognition interface, inspired by TensorFlow Playground"],
         "tags": ["jsReact", "Python", "Tensorflow"],
         "links": [
@@ -159,7 +159,7 @@
         "subtitle": "OO Design and Data Structs Honors",
         "date": "Aug 2020 - Present",
         "body": ["Prepared and graded assignments and exams",
-          "Held weekly office hours"],
+          "Assisted students through weekly office hours and Piazza"],
         "tags": ["Java"],
         "links": [
           {
@@ -196,6 +196,10 @@
             "value": 80
           },
           {
+            "name": "SQL",
+            "value": 80
+          },
+          {
             "name": "OCaml",
             "value": 60
           },
@@ -205,6 +209,10 @@
           },
           {
             "name": "Python",
+            "value": 60
+          },
+          {
+            "name": "Bash",
             "value": 60
           }
         ]
@@ -217,24 +225,24 @@
             "value": 100
           },
           {
-            "name": "JPA",
-            "value": 80
-          },
-          {
             "name": "UnityEngine",
             "value": 80
           },
           {
             "name": "Flask",
-            "value": 60
+            "value": 80
           },
           {
             "name": "Node.js",
             "value": 60
           },
           {
+            "name": "NumPy",
+            "value": 60
+          },
+          {
             "name": "TensorFlow",
-            "value": 40
+            "value": 60
           }
         ]
       },
@@ -250,16 +258,20 @@
             "value": 100
           },
           {
-            "name": "UNIX",
-            "value": 80
-          },
-          {
-            "name": "IntelliJ",
+            "name": "WSL",
             "value": 80
           },
           {
             "name": "VSCode",
             "value": 80
+          },
+          {
+            "name": "Google Cloud",
+            "value": 60
+          },
+          {
+            "name": "Docker",
+            "value": 60
           }
         ]
       }
