@@ -137,7 +137,7 @@
         "date": "Jul 2020 - Present",
         "body": ["Created, tested, and redeveloped API endpoints",
           "Updated and refactored old codebase",
-          "Migrating backend from JPA to REST"],
+          "Migrating backend from JPA to REST API"],
         "tags": ["Java", "TypeScript"]
       },
       {

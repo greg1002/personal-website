@@ -127,7 +127,7 @@ export default class Panel extends Component {
           return (
             <Grid item xs={12}>
               <Box p={1} display="flex" alignItems="center">
-                <Box minWidth={75}>
+                <Box minWidth={100}>
                   <Typography variant="body2">{skill.name}</Typography>
                 </Box>
                 <Box ml={2} flexGrow={1}>
