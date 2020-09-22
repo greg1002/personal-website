@@ -124,29 +124,30 @@
   {
     "name": "Experiences",
     "type": "normal",
-    "maxWidth": "md",
+    "maxWidth": "lg",
     "breakpoints": {
       "xs": 12,
       "sm": 6,
-      "md": 4
+      "lg": 4
     },
     "panels": [
       {
         "title": "Backend Dev",
         "subtitle": "Course Management System",
         "date": "Jul 2020 - Present",
-        "body": ["Created, tested, and redeveloped API endpoints",
-          "Updated and refactored old codebase",
-          "Migrating backend from JPA to REST API"],
+        "body": ["Created, redeveloped, and tested JPA Endpoints",
+            "Redesigning and reimplementing API, migrating away from JPA to REST",
+            "Working in a production environment, participating in code reviews, with rigorous deadlines and testing standards"],
         "tags": ["Java", "TypeScript"]
       },
       {
         "title": "Software Engineer",
         "subtitle": "Cornell Cup Robotics",
         "date": "Jan 2020 - Present",
-        "body": ["Helped implement Google Blockly on a web-app as a medium to program a robot",
-          "Creating a customizable ML image recognition interface, inspired by TensorFlow Playground"],
-        "tags": ["jsReact", "Python", "Tensorflow"],
+        "body": ["Member of the Minibot project, an educational robotics system designed for high schoolers/undergraduates",
+            "Implemented Google Blockly in a jsReact web-app as a medium for users to program the Minibot",
+            "Creating a customizable ML object classification model training jsReact web-app and backend, with the goal of helping students understand ML/CV"],
+        "tags": ["jsReact", "Python", "Tensorflow", "Keras"],
         "links": [
           {
             "name": "Team Website",
@@ -158,8 +159,8 @@
         "title": "Teaching Consultant",
         "subtitle": "OO Design and Data Structs Honors",
         "date": "Aug 2020 - Present",
-        "body": ["Prepared and graded assignments and exams",
-          "Assisted students through weekly office hours and Piazza"],
+        "body": ["Designed and graded assignments and exams",
+            "Assisted students with assignments, OOD concepts, and Java through weekly office hours and Piazza"],
         "tags": ["Java"],
         "links": [
           {
@@ -243,6 +244,10 @@
           {
             "name": "TensorFlow",
             "value": 60
+          },
+          {
+            "name": "Keras",
+            "value": 40
           }
         ]
       },
@@ -271,6 +276,10 @@
           },
           {
             "name": "Docker",
+            "value": 60
+          },
+          {
+            "name": "IntelliJ",
             "value": 60
           }
         ]
