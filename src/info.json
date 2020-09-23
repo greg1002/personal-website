@@ -72,7 +72,7 @@
         "image": "/images/projects/mill_ai_pic.png",
         "title": "MILL-AI",
         "date": "May 2020 - Present",
-        "body": "A Greedy Monte Carlo Tree Search AI for the game Mill built into a webapp",
+        "body": "A Greedy Monte Carlo Tree Search AI for the game Mill built into a web-app",
         "tags": ["jsReact"],
         "links": [
           {
@@ -135,17 +135,17 @@
         "title": "Backend Dev",
         "subtitle": "Course Management System",
         "date": "Jul 2020 - Present",
-        "body": ["Created, redeveloped, and tested JPA Endpoints",
-            "Redesigning and reimplementing API, undoing years or disorgnization",
+        "body": ["Created, redeveloped, and tested JPA classes",
+            "Redesigning and reimplementing API, transitioning from JSP to REST architecture and undoing years of disorganization",
             "Working in a production environment, participating in code reviews, with rigorous deadlines and testing standards"],
-        "tags": ["Java", "TypeScript"]
+        "tags": ["Java", "TypeScript", "JPA"]
       },
       {
         "title": "Software Engineer",
         "subtitle": "Cornell Cup Robotics",
         "date": "Jan 2020 - Present",
-        "body": ["Member of the Minibot project, an educational robotics system designed for high schoolers/undergraduates",
-            "Implemented Google Blockly in a jsReact web-app as a medium for users to program the Minibot",
+        "body": ["Member of the Minibot project, a licensed educational robotics system designed for high school/college students",
+            "Implemented Google Blockly with custom Minibot-specific functionality in a jsReact web-app as a medium for users to program the Minibot",
             "Creating a customizable ML object classification model training jsReact web-app and backend, with the goal of helping students understand ML/CV"],
         "tags": ["jsReact", "Python", "Tensorflow", "Keras"],
         "links": [
@@ -231,6 +231,10 @@
           },
           {
             "name": "Flask",
+            "value": 80
+          },
+          {
+            "name": "JPA",
             "value": 80
           },
           {
