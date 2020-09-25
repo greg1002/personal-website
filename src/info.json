@@ -147,7 +147,7 @@
         "body": ["Member of the Minibot project, a licensed educational robotics system designed for high school/college students",
             "Implemented Google Blockly with custom Minibot-specific functionality in a jsReact web-app as a medium for users to program the Minibot",
             "Creating a customizable ML object classification model training jsReact web-app and backend, with the goal of helping students understand ML/CV"],
-        "tags": ["jsReact", "Python", "Tensorflow", "Keras"],
+        "tags": ["jsReact", "Python", "Tensorflow", "Keras", "Flask"],
         "links": [
           {
             "name": "Team Website",
