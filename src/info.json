@@ -135,7 +135,7 @@
         "title": "Backend Dev",
         "subtitle": "Course Management System",
         "date": "Jul 2020 - Present",
-        "body": ["Created, redeveloped, and tested JPA classes",
+        "body": ["Created, redeveloped, and tested JPA classes/endpoints",
             "Redesigning and reimplementing API, transitioning from JSP to REST architecture and undoing years of disorganization",
             "Working in a production environment, participating in code reviews, with rigorous deadlines and testing standards"],
         "tags": ["Java", "TypeScript", "JPA"]
@@ -190,7 +190,7 @@
           },
           {
             "name": "Java",
-            "value": 80
+            "value": 100
           },
           {
             "name": "TypeScript",
@@ -198,6 +198,10 @@
           },
           {
             "name": "SQL",
+            "value": 80
+          },
+          {
+            "name": "HTML/CSS",
             "value": 80
           },
           {
