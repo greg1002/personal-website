@@ -34,7 +34,7 @@
           },
           {
             "type": "work",
-            "text": "CMS Backend Dev"
+            "text": "Incoming Amazon SDE Intern"
           }
         ],
         "links": [
@@ -132,21 +132,12 @@
     },
     "panels": [
       {
-        "title": "Backend Dev",
-        "subtitle": "Course Management System",
-        "date": "Jul 2020 - Present",
-        "body": ["Created, redeveloped, and tested JPA classes/endpoints",
-            "Redesigning and reimplementing API, transitioning from JSP to REST architecture and undoing years of disorganization",
-            "Working in a production environment, participating in code reviews, with rigorous deadlines and testing standards"],
-        "tags": ["Java", "TypeScript", "JPA"]
-      },
-      {
         "title": "Software Engineer",
         "subtitle": "Cornell Cup Robotics",
         "date": "Jan 2020 - Present",
         "body": ["Member of the Minibot project, a licensed educational robotics system designed for high school/college students",
             "Implemented Google Blockly with custom Minibot-specific functionality in a jsReact web-app as a medium for users to program the Minibot",
-            "Creating a customizable ML object classification model training jsReact web-app and backend, with the goal of helping students understand ML/CV"],
+            "Creating a customizable ML object classification model training jsReact web-app with Tensorflow.js, with the goal of helping students understand ML/CV"],
         "tags": ["jsReact", "Python", "Tensorflow", "Keras", "Flask"],
         "links": [
           {
@@ -157,17 +148,27 @@
       },
       {
         "title": "Teaching Consultant",
-        "subtitle": "OO Design and Data Structs Honors",
+        "subtitle": "Cornell University",
         "date": "Aug 2020 - Present",
-        "body": ["Designed and graded assignments and exams",
+        "body": ["CS2112: Honors OO Design & Data Structures (Fall 2020)",
+          "CS3110: Data Strucutres & Functional Programming (Spring 2021)",
+          "Designed and graded assignments and exams",
             "Assisted students with assignments, OOD concepts, and Java through weekly office hours and Piazza"],
-        "tags": ["Java"],
+        "tags": ["Java", "OCaml"],
         "links": [
           {
             "name": "Course Website",
             "href": "https://www.cs.cornell.edu/courses/cs2112/2020fa/"
           }
         ]
+      },
+      {
+        "title": "Backend Dev",
+        "subtitle": "Course Management System",
+        "date": "Jul 2020 - Dec 2020",
+        "body": ["Created, redeveloped, and tested JPA classes/endpoints",
+            "Helped redesign and reimplement API, transitioning from JSP to REST architecture and undoing years of disorganization"],
+        "tags": ["Java", "TypeScript", "JPA"]
       }
     ]
   },
