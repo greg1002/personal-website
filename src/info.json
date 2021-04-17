@@ -73,7 +73,7 @@
         "title": "MILL-AI",
         "date": "May 2020 - Present",
         "body": "A Greedy Monte Carlo Tree Search AI for the game Mill built into a web-app",
-        "tags": ["jsReact"],
+        "tags": ["React.js"],
         "links": [
           {
             "name": "App",
@@ -94,7 +94,7 @@
         "title": "Sorting Algorithm Visualization",
         "date": "Jan 2020 - Feb 2020",
         "body": "A webapp for visualizing 6 sorting algorithms with various parameters",
-        "tags": ["jsReact"],
+        "tags": ["React.js"],
         "links": [
           {
             "name": "App",
@@ -128,17 +128,23 @@
     "breakpoints": {
       "xs": 12,
       "sm": 6,
-      "lg": 4
+      "md": 4,
+      "lg": 3
     },
     "panels": [
+      {
+        "title": "SDE Intern",
+        "subtitle": "Amazon Ireland",
+        "date": "Jun 2021 - Dec 2021"
+      },
       {
         "title": "Software Engineer",
         "subtitle": "Cornell Cup Robotics",
         "date": "Jan 2020 - Present",
         "body": ["Member of the Minibot project, a licensed educational robotics system designed for high school/college students",
-            "Implemented Google Blockly with custom Minibot-specific functionality in a jsReact web-app as a medium for users to program the Minibot",
-            "Creating a customizable ML object classification model training jsReact web-app with Tensorflow.js, with the goal of helping students understand ML/CV"],
-        "tags": ["jsReact", "Python", "Tensorflow", "Keras", "Flask"],
+            "Implemented Google Blockly with custom Minibot-specific functionality in a React.js web-app as a medium for users to program the Minibot",
+            "Creating a customizable ML object classification model training React.js web-app with Tensorflow.js, with the goal of helping students understand ML/CV"],
+        "tags": ["React.js", "Python", "Tensorflow", "Keras", "Flask"],
         "links": [
           {
             "name": "Team Website",
@@ -153,7 +159,7 @@
         "body": ["CS2112: Honors OO Design & Data Structures (Fall 2020)",
           "CS3110: Data Strucutres & Functional Programming (Spring 2021)",
           "Designed and graded assignments and exams",
-            "Assisted students with assignments, OOD concepts, and Java through weekly office hours and Piazza"],
+            "Assisted students through weekly office hours and Piazza"],
         "tags": ["Java", "OCaml"],
         "links": [
           {
@@ -194,11 +200,7 @@
             "value": 100
           },
           {
-            "name": "TypeScript",
-            "value": 80
-          },
-          {
-            "name": "SQL",
+            "name": "Python",
             "value": 80
           },
           {
@@ -214,7 +216,7 @@
             "value": 60
           },
           {
-            "name": "Python",
+            "name": "C",
             "value": 60
           },
           {
@@ -227,19 +229,15 @@
         "title": "Libraries",
         "skills": [
           {
-            "name": "jsReact",
+            "name": "React.js",
             "value": 100
           },
           {
-            "name": "UnityEngine",
-            "value": 80
+            "name": "NumPy",
+            "value": 100
           },
           {
             "name": "Flask",
-            "value": 80
-          },
-          {
-            "name": "JPA",
             "value": 80
           },
           {
@@ -247,11 +245,11 @@
             "value": 60
           },
           {
-            "name": "NumPy",
+            "name": "TensorFlow",
             "value": 60
           },
           {
-            "name": "TensorFlow",
+            "name": "JPA",
             "value": 60
           },
           {
@@ -264,7 +262,7 @@
         "title": "Tools",
         "skills": [
           {
-            "name": "Git/GitHub",
+            "name": "Git",
             "value": 100
           },
           {
@@ -272,7 +270,7 @@
             "value": 100
           },
           {
-            "name": "WSL",
+            "name": "Linux",
             "value": 80
           },
           {
@@ -280,16 +278,20 @@
             "value": 80
           },
           {
+            "name": "Vim",
+            "value": 80
+          },
+          {
+            "name": "IntelliJ",
+            "value": 60
+          },
+          {
             "name": "Google Cloud",
             "value": 60
           },
           {
             "name": "Docker",
-            "value": 60
-          },
-          {
-            "name": "IntelliJ",
-            "value": 60
+            "value": 40
           }
         ]
       }
@@ -309,7 +311,7 @@
         "title": "developergreg.com",
         "date": "Aug 2020",
         "subtitle": "First Release",
-        "tags": ["jsReact", "Material-UI"],
+        "tags": ["React.js", "Material-UI"],
         "links": [
           {
             "name": "Github",
