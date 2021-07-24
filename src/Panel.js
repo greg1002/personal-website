@@ -85,7 +85,7 @@ export default class Panel extends Component {
           json.body.map(text => {
             return (
               <Typography variant="body2" component="p">
-                {"• " + text}
+                {text}
               </Typography>
             );
           }) :

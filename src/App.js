@@ -1,21 +1,18 @@
 import React, { Component } from 'react';
-import './App.css';
 import Panel from './Panel.js';
+import withWidth, { isWidthUp } from '@material-ui/core/withWidth';
 import { Container, Grid, Typography, Box, ListSubheader, ListItem, List, Fragment } from '@material-ui/core';
 import { Timeline, TimelineItem, TimelineSeparator, TimelineConnector, TimelineContent, TimelineDot, TimelineOppositeContent } from '@material-ui/lab';
 import { makeStyles } from '@material-ui/core/styles';
 
 var json = require('./info.json');
 
-export default function App() {
-    return (
-      <SectionList />
-    );
-}
+export default withWidth() (App);
+
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '100%',
     backgroundColor: theme.palette.background.default,
     position: 'absolute',
     overflow: 'auto',
@@ -27,29 +24,50 @@ const useStyles = makeStyles((theme) => ({
   ul: {
     backgroundColor: 'inherit',
     padding: 0,
-  },
-
+  }
 }));
 
-function SectionList() {
+
+function App(props) {
+  const classes = useStyles();
+  return (
+    isWidthUp('lg', props.width) ?
+     <Box height="100%" display="flex">
+      <Box height="100%" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
+        {
+          json[0].map(section =>
+            <Subsection json={section} />
+          )
+        }
+      </Box>
+      <Box flexGrow={1}>
+        <Grid item xs={7}>
+          <Section json={json[1]}/>
+        </Grid>
+      </Box>
+    </Box> :
+    <Section json={json.flat()}/>
+  );
+}
+
+
+function Section(props) {
   const classes = useStyles();
 
   return (
-    <List className={classes.root} subheader={<li />}>{
-      json.map(section => {
-        return (
-          <li className={classes.listSection}>
-            <ul className={classes.ul}>
-              <Section json={section}/>
-            </ul>
-          </li>
-        )
-      })
-    }</List>
+      <List className={classes.root} subheader={<li />}>{
+        props.json.map(section =>
+            <li className={classes.listSection}>
+              <ul className={classes.ul}>
+                <Subsection json={section}/>
+              </ul>
+            </li>
+          )
+      }</List>
   )
 }
 
-function Section(props) {
+function Subsection(props) {
   const classes = useStyles();
   const { name, type, maxWidth, breakpoints } = props.json;
   return (
@@ -77,7 +95,7 @@ function Section(props) {
 function Header(props) {
   const { name } = props;
   return (
-    <ListSubheader color='inherit'>
+    name == null ? <div /> : <ListSubheader color='inherit'>
       <Box p={2}>
         <Typography align="center" variant="h5">{name}</Typography>
       </Box>
