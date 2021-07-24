@@ -70,10 +70,10 @@
     "panels": [
       {
         "title": "Hey! I'm Greg.",
-        "body": ["I'm a CS & Math student at Cornell University", "⠀",
-        "I enjoy designing complex but effective systems, discovering and applying new algorithms, and generally broadening my CS skillset. Above all, I want to make an impact with my work!", "⠀",
+        "body": ["I'm a CS & Math student at Cornell University.", "⠀",
+        "I enjoy designing complex but effective systems, discovering and applying new algorithms, and generally broadening my CS skillset by diving into new fields. Above all, I want to make an impact with my work!", "⠀",
         "In my free time I enjoy escaping to nature, playing the piano and guitar, or just contemplating life.", "⠀",
-        "Reach out to me on LinkedIn or at gc392@cornell.edu.", "⠀", "Cheers"]
+        "Please each out to me on LinkedIn or at gc392@cornell.edu.", "⠀", "Cheers"]
       }
     ]
   },
