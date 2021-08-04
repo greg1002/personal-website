@@ -72,7 +72,7 @@
         "title": "Hey! I'm Greg.",
         "body": ["I'm a CS & Math student at Cornell University.", "⠀",
         "I enjoy designing complex but effective systems, discovering and applying new algorithms, and generally broadening my CS skillset by diving into new fields. Above all, I want to make an impact with my work!", "⠀",
-        "In my free time I enjoy escaping to nature, playing the piano and guitar, or just contemplating life.", "⠀",
+        "In my free time I enjoy escaping to nature, making music, going out with friends, or just contemplating life.", "⠀",
         "Please each out to me on LinkedIn or at gc392@cornell.edu.", "⠀", "Cheers"]
       }
     ]
@@ -90,7 +90,7 @@
         "title": "SDE Intern",
         "subtitle": "Amazon Ireland",
         "date": "Jun 2021 - Dec 2021",
-        "body": ["• Designed, developed, and deployed an internal autotester service to ensure the availability of chunks through fail-safe processes, securing the response to region-wide CloudWatch data outages",
+        "body": ["• Designed, developed, and deployed an internal autotester service to ensure the effectiveness of CloudWatch metric data recovery processes, securing the response to region-wide CloudWatch data outages",
           "• Orchestrated workflows using event-driven state machines in AWS (Step Functions, Lambda, S3, DynamoDB, Kinesis, CloudWatch)",
           "• Wrote design documents to communicate approaches & solutions to problems, using cost-benefit analysis to drive decisions",
           "• Self-studied a course for AWS Cloud Practitioner certification"],
