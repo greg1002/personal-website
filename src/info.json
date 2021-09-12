@@ -93,8 +93,8 @@
         "body": ["• Designed, developed, and deployed an internal autotester service to ensure the effectiveness of CloudWatch metric data recovery processes, securing the response to region-wide CloudWatch data outages",
           "• Orchestrated workflows using event-driven state machines in AWS (Step Functions, Lambda, S3, DynamoDB, Kinesis, CloudWatch)",
           "• Wrote design documents to communicate approaches & solutions to problems, using cost-benefit analysis to drive decisions",
-          "• Self-studied a course for AWS Cloud Practitioner certification"],
-          "tags": ["AWS", "Java", "Python", "Bash"]
+          "• Took weeklong MLU courses in ML and NLP and self-studied a course for AWS Cloud Practitioner certification"],
+          "tags": ["AWS", "Java", "Bash"]
       },
       {
         "title": "Software Engineer",
@@ -254,10 +254,6 @@
               "value": 60
             },
             {
-              "name": "Bash",
-              "value": 40
-            },
-            {
               "name": "C#",
               "value": 40
             },
@@ -312,10 +308,6 @@
             },
             {
               "name": "OpenCV",
-              "value": 40
-            },
-            {
-              "name": "Node.js",
               "value": 40
             }
           ]
